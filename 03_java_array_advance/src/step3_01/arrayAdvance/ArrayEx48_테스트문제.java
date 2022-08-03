@@ -16,7 +16,7 @@ public class ArrayEx48_테스트문제 {
 
 		Random ran = new Random();
 		
-		
+		System.out.println("랜덤숫자 2개 배열에 저장");
 		
 	}
 
