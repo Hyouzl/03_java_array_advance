@@ -18,6 +18,9 @@ public class ArrayEx48_테스트문제 {
 		
 		System.out.println("랜덤숫자 2개 배열에 저장");
 		
+		int[] arr = new int[2];
+		
+		
 	}
 
 }
