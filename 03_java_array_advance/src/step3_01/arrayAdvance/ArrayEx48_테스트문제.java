@@ -21,6 +21,9 @@ public class ArrayEx48_테스트문제 {
 		int[] arr = new int[2];
 		
 		
+		
+		
+		
 	}
 
 }

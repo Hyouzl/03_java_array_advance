@@ -1,5 +1,8 @@
 package step3_01.arrayAdvance;
 
+import java.util.Scanner;
+
+import javax.sql.rowset.serial.SQLOutputImpl;
 
 /*
   
@@ -19,6 +22,45 @@ public class ArrayEx50_테스트문제 {
 
 	public static void main(String[] args) {
 
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.print("숫자 입력 :");
+		
+		int num = scan.nextInt();
+		int temp = num;
+		int len = 0;
+		
+		while (true) {
+			if (temp == 0) {
+				break;
+			}
+			len++; 
+			temp /= 10;
+		}
+	
+		
+		int[] arr = new int[len];
+		
+		int i = 0;
+		while (true) {
+			if (i == len) {
+				break;
+			}
+			arr[i] = num % 10;
+			num /= 10;
+			i++;
+		}
+		
+		if (len % 2 == 0) {
+			System.out.println("짝수의 자리이다.");
+		}
+		
+		else {
+			System.out.println("==>" + arr[(len-1) / 2]);
+		}
+		
+		
+		
 		
 	}
 
